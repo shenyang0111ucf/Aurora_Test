@@ -11,7 +11,7 @@ import json
 # ----------------------------
 # CONFIG
 # ----------------------------
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 MEMBER_API_URL = "https://november7-730026606190.europe-west1.run.app/messages/?skip=0&limit=100"  # The external JSON API
 VECTORSTORE_DIR = "vectorstore"
 
